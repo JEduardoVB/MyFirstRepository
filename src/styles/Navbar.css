@@ -1,0 +1,42 @@
+/*-----------------------------Navbar.css-----------------------------*/
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: rgba(255, 255, 255, 1); /* Fondo blanco con opacidad */
+    backdrop-filter: blur(5px); /* Difuminado en el fondo */
+    padding: 2vh;
+}
+/*-----------------------------Style list Navbar-----------------------------*/
+.List-nav-options{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+}
+.Option-nav{
+    margin-right: 3vw;
+    align-content: center;
+}
+/*-----------------------------Style Options-----------------------------*/
+a{
+    color: #3d3d3d;
+    font-family: 'Raleway';
+    font-weight: 1; 
+    font-size: 80%;
+    text-decoration: none;
+    transition: color 0.5s, font-size 0.3s;
+}
+a:hover{
+    color: #000000;
+    font-size: 110%;
+}
+/*-----------------------------Style Image-----------------------------*/
+.Logo-nav{
+    margin-left: 2vw;
+    width: 2vh;
+    height: auto;
+}

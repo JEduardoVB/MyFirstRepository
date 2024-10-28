@@ -1,0 +1,44 @@
+.Port{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 150px;
+    border: 2px solid #333;
+    background-color: #ffffff;
+    position: relative;
+    margin: 20px auto 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.screen {
+    width: 98%;
+    height: 85%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cam{
+    width: 6px; /* Tamaño del punto */
+    height: 6px; /* Tamaño del punto */
+    background-color: #4b4b4b; /* Color del punto (puedes cambiarlo) */
+    border-radius: 50%; /* Hace que el div tenga forma circular */
+    position: absolute; /* Permite posicionarlo con respecto a su contenedor */
+    top: 2%; /* Ajusta la posición vertical */
+}
+.base{
+    width: 280px;
+    height: 5px;
+    border: 2px solid #333;
+    background-color: #ffffff;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

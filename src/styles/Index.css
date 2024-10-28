@@ -1,0 +1,26 @@
+/*-----------------------------Index.css-----------------------------*/
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60vh;
+    margin: 10vw 10vw 10vw 10vw;
+}
+h1{
+    font-family: 'Koulen', sans-serif;
+    display: inline-block;
+    font-weight: normal; 
+    font-size: 8vw;
+    line-height: 1;
+    margin: 0;
+    color: #000000;
+}
+.Presentation{
+    font-family: 'Raleway';
+    font-weight: lighter; 
+    font-size: 4vw;
+    width: 80%;
+    margin: 0;
+    color: #000000;
+}
+/*Style list Navbar*/
+

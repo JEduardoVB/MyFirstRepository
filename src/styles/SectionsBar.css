@@ -1,0 +1,26 @@
+/*-----------------------------Proyects.css-----------------------------*/
+.Bar{
+    margin-top: 20VH;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 6px 0px;
+}
+.Section-Bar{
+    font-family: 'Koulen', sans-serif;
+    font-weight: normal; 
+    text-align: center;
+    font-size: 4vw;
+    line-height: 1;
+    margin: 0;
+    color: #000000;
+}
+.Description-Bar{
+    font-family: 'Raleway';
+    font-weight: lighter; 
+    text-align: center;
+    width: 50%;
+    font-size: 1.3vw;
+}

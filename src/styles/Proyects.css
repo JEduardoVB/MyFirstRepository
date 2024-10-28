@@ -1,0 +1,8 @@
+.Proyect{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+}
+.Description-Proyect{
+    text-align: justify;
+}

@@ -1,0 +1,31 @@
+/*-----------------------------Footer.css-----------------------------*/
+footer {
+    display: grid;
+    grid-template-rows: repeat(3);
+    background-color: #f6f6f6;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 6px 0px inset;
+    padding: 6%; 
+}
+/*-----------------------------Style Cicons-----------------------------*/
+.List-footer-social {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.Social {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.icon {
+    width: 3vw;
+    height: auto;
+    color: #000000;
+}
+/*-----------------------------Text-----------------------------*/
+.Copyright{
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 1; 
+}
