@@ -31,7 +31,7 @@ a{
     transition: color 0.5s, font-size 0.3s;
 }
 a:hover{
-    color: #ffffff;
+    color: #dfec25;
     font-size: 110%;
 }
 /*-----------------------------Style Image-----------------------------*/

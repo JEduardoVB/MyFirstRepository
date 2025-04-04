@@ -1,0 +1,58 @@
+/*PROYECTOS INDIVIDUAL*/
+.Proyect{
+    color: #fdfdfd;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Proyect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+/*TAGS*/
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+  }
+  
+.tag {
+    background: #3d3d3d;
+    color: #dfec25;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+/*PROYECTOS EN GENERAL*/
+.Proyects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 5% 10%;
+}
+
+/*-------------------------RESPONSIVE----------------------*/
+/* Para pantallas grandes (3 columnas) */
+@media (min-width: 1200px) {
+  .Proyects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Ajuste para tabletas (2 columnas) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .Proyects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile (1 columna) */
+@media (max-width: 767px) {
+  .Proyects {
+    grid-template-columns: 1fr;
+  }
+}

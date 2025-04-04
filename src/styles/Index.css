@@ -37,16 +37,5 @@ header img {
     margin-left: auto; /* Alinea la imagen a la derecha */
     display: block; /* Necesario para que margin-left: auto funcione */
 }
-/*PROYECTS*/
-.Proyect{
-    color: #fdfdfd;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 5%;
-}
-.Description-Proyect{
-    color: #fdfdfd;
-    text-align: justify;
-}
 /*Style list Navbar*/
 
