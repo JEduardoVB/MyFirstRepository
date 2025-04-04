@@ -5,7 +5,6 @@ import Skills from '../components/Skills';
 import ProjectCard from '../components/ProjectCard';
 import Photo from '../images/PhotoPersonal.jpg';
 
-
 const projectsData = [
   {
     title: "Portfolio",
@@ -80,8 +79,8 @@ const Index = () => {
                     <h2 className='Section-Bar'>SKILLS</h2>
                     <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #fdfdfd'}} />
                 </div>
-                <div className='Skills' style={{padding: "5% 5%"}}>
-                    
+                <div className='Skills' style={{padding: "0% 20%"}}>
+                    <Skills/>
                 </div>
             </section>
 
