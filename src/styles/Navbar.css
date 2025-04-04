@@ -5,8 +5,8 @@ nav{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: rgba(255, 255, 255, 1); /* Fondo blanco con opacidad */
-    backdrop-filter: blur(5px); /* Difuminado en el fondo */
+    background: #00000000; /* Fondo blanco con opacidad */
+    backdrop-filter: blur(4px); /* Difuminado en el fondo */
     padding: 2vh;
 }
 /*-----------------------------Style list Navbar-----------------------------*/
@@ -23,7 +23,7 @@ nav{
 }
 /*-----------------------------Style Options-----------------------------*/
 a{
-    color: #3d3d3d;
+    color: #fdfdfd;
     font-family: 'Raleway';
     font-weight: 1; 
     font-size: 80%;
@@ -31,12 +31,12 @@ a{
     transition: color 0.5s, font-size 0.3s;
 }
 a:hover{
-    color: #000000;
+    color: #ffffff;
     font-size: 110%;
 }
 /*-----------------------------Style Image-----------------------------*/
 .Logo-nav{
     margin-left: 2vw;
-    width: 2vh;
+    width: 6vh;
     height: auto;
 }

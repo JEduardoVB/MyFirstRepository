@@ -19,7 +19,7 @@ const Footer = () => {
                     <a href=""><FaEnvelope className='icon' /></a>
                 </li>
             </ul>
-            <hr style={{ margin: '2vh 8vw', border: 'none', borderTop: '1px solid #3d3d3d'}} />
+            <hr style={{ margin: '2vh 8vw', border: 'none', borderTop: '1px solid #fdfdfd'}} />
             <p className='Copyright'>&copy; {new Date().getFullYear()} José Eduardo Vásquez Bielma. All rights reserved.</p>
             
         </footer>

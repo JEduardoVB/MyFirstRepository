@@ -1,3 +1,6 @@
+body{
+  background-color: #252525;
+}
 .App {
   text-align: center;
 }
@@ -43,11 +46,11 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #3d3d3d;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3d3d3d;
+  background: #fdfdfd;
   border-radius: 10px;
 }
 

@@ -1,21 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/Navbar.css'; // Importa el CSS
+import { Link } from 'react-scroll'; // Cambiamos react-router-dom por react-scroll
+import '../styles/Navbar.css';
 import Logo from '../images/Logo.png';
 
 const Navbar = () => {
     return (
         <nav>
-            <Link to="/Index"><img src={Logo} alt="Logo" className='Logo-nav'/></Link>
+            <Link to="home" smooth={true} duration={500} className="logo-link">
+                <img src={Logo} alt="Logo" className='Logo-nav'/>
+            </Link>
             <ul className='List-nav-options'>
                 <li className='Option-nav'>
-                    <Link to="/Proyects">Proyects</Link>
+                    <Link to="projects" smooth={true} duration={500}>Projects</Link>
                 </li>
                 <li className='Option-nav'>
-                    <Link to="/AboutMe">AboutMe</Link>
+                    <Link to="about" smooth={true} duration={500}>About Me</Link>
                 </li>
                 <li className='Option-nav'>
-                    <Link to="/Contact">Contact</Link>
+                    <Link to="contact" smooth={true} duration={500}>Contact</Link>
                 </li>
             </ul>
         </nav>

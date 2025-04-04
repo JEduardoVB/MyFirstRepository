@@ -1,26 +1,52 @@
 /*-----------------------------Index.css-----------------------------*/
-header{
+header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 60vh;
     margin: 10vw 10vw 10vw 10vw;
+    align-items: center; /* Para centrar verticalmente los elementos */
 }
-h1{
+
+h1 {
     font-family: 'Koulen', sans-serif;
     display: inline-block;
     font-weight: normal; 
     font-size: 8vw;
     line-height: 1;
     margin: 0;
-    color: #000000;
+    color: #fdfdfd;
 }
-.Presentation{
+
+.Presentation {
     font-family: 'Raleway';
     font-weight: lighter; 
     font-size: 4vw;
-    width: 80%;
+    width: 100%;
     margin: 0;
-    color: #000000;
+    color: #fdfdfd;
+}
+
+header img {
+    width: 30vw; /* Ajusta este valor para cambiar el tamaño */
+    height: 30vw; /* Mismo valor que width para mantener proporción */
+    max-width: 400px; /* Límite máximo opcional */
+    max-height: 400px; /* Límite máximo opcional */
+    border-radius: 50%; /* Esto hace la imagen redonda */
+    object-fit: cover; /* Para asegurar que la imagen mantenga sus proporciones */
+    border: 2px solid #fdfdfd; /* Borde opcional */
+    margin-left: auto; /* Alinea la imagen a la derecha */
+    display: block; /* Necesario para que margin-left: auto funcione */
+}
+/*PROYECTS*/
+.Proyect{
+    color: #fdfdfd;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+}
+.Description-Proyect{
+    color: #fdfdfd;
+    text-align: justify;
 }
 /*Style list Navbar*/
 
