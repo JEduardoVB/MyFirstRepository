@@ -1,9 +1,9 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'; // Eliminamos Route y Routes ya que no los necesitaremos
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Index from './pages/Index'; // Este ahora contiene todo el contenido
+import Index from './pages/Index';
 import './App.css';
 
 const App = () => {

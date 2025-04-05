@@ -45,8 +45,8 @@ const Index = () => {
             <section id="home"></section>
             <header>
                 <div>
-                    <h1>WELCOME</h1>
-                    <h2 className='Presentation'>Hi! I'm Eduardo, a Mexican programming student and future full-stack developer.</h2>
+                    <h1>BIENVENIDO</h1>
+                    <h2 className='Presentation'>Hola! Soy Eduardo, un estudiante de computación y futuro desarrollador full-stack.</h2>
                 </div>
                 <div>
                     <img src={Photo} alt="Selfie" className="profile-photo" />
@@ -57,7 +57,7 @@ const Index = () => {
             <section id="projects"></section>
             <section className='Container-Proyects'>
                 <div className='Bar'>
-                    <h2 className='Section-Bar'>PROYECTS</h2>
+                    <h2 className='Section-Bar'>PROYECTOS</h2>
                     <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                     <p className='Description-Bar'>Conoce algunos proyectos personales y profesionales en los que he trabajado hasta el momento, 
                     tal vez alguno sea de tu agrado y podamos hacer algo juntos</p>
@@ -76,7 +76,7 @@ const Index = () => {
             <section id="skills"></section>
             <section className='Container-Skills'>
                 <div className='Bar'>
-                    <h2 className='Section-Bar'>SKILLS</h2>
+                    <h2 className='Section-Bar'>HABILIDADES</h2>
                     <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                 </div>
                 <div className='Skills' style={{padding: "0% 20% 5% 20%"}}>
@@ -88,7 +88,7 @@ const Index = () => {
             <section id="about"></section>
             <section className='Container-AboutMe'>
                 <div className='Bar'>
-                    <h2 className='Section-Bar'>ABOUT ME</h2>
+                    <h2 className='Section-Bar'>SOBRE MI</h2>
                     <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                     <p className='Description-Bar'>Si necesitas saber quién soy, aquí encontraras un poco de información
                     sobre mi educación e historias.</p>
@@ -104,7 +104,7 @@ const Index = () => {
             <section id="contact"></section>
             <section className='Container-Contact'>
                 <div className='Bar'>
-                    <h2 className='Section-Bar'>CONTACT</h2>
+                    <h2 className='Section-Bar'>CONTACTAME</h2>
                     <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                     <p className='Description-Bar'>Espero que estés buscando como contactarme porque te gustó algo que te interesó
                     y no porque me quieras demandar</p>
