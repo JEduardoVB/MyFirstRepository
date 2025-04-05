@@ -10,13 +10,10 @@ const Footer = () => {
                     <a href="https://www.instagram.com/eduardovb._/"><FaInstagram className='icon' /></a>
                 </li>
                 <li className='Social'> 
-                    <a href=""><FaGithub className='icon' /></a>
+                    <a href="https://github.com/JEduardoVB"><FaGithub className='icon' /></a>
                 </li>
                 <li className='Social'>
-                    <a href=""><FaLinkedin className='icon' /></a>
-                </li>
-                <li className='Social'>
-                    <a href=""><FaEnvelope className='icon' /></a>
+                    <a href="https://www.linkedin.com/in/josé-eduardo-vásquez-bielma-6222b9266/"><FaLinkedin className='icon' /></a>
                 </li>
             </ul>
             <hr style={{ margin: '2vh 8vw', border: 'none', borderTop: '1px solid #fdfdfd'}} />
