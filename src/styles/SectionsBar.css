@@ -1,6 +1,6 @@
 /*-----------------------------Proyects.css-----------------------------*/
-.Bar{
-    margin-top: 1VH;
+.Bar {
+    margin-top: 1vh;
     padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
@@ -8,20 +8,52 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 6px 0px;
 }
-.Section-Bar{
+
+.Section-Bar {
     color: #fdfdfd;
     font-family: 'Koulen', sans-serif;
-    font-weight: normal; 
+    font-weight: normal;
     text-align: center;
-    font-size: 4vw;
+    font-size: clamp(1.8rem, 4vw, 3rem);
     line-height: 1;
-    margin: 0;
+    margin: 0 0 0.5rem;
 }
-.Description-Bar{
+
+.Description-Bar {
     color: #fdfdfd;
     font-family: 'Raleway';
-    font-weight: lighter; 
+    font-weight: lighter;
     text-align: center;
-    width: 50%;
-    font-size: 1.3vw;
+    width: 90%;
+    font-size: clamp(0.9rem, 1.3vw, 1.1rem);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 5%;
+}
+
+/* Media Queries para mejor control */
+@media (min-width: 768px) {
+    .Description-Bar {
+        width: 70%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .Description-Bar {
+        width: 60%;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Description-Bar {
+        width: 50%;
+    }
+}
+
+/* Efecto hover opcional para interactividad */
+.Section-Bar:hover {
+    text-shadow: 0 0 10px rgba(223, 236, 37, 0.3);
+    transition: text-shadow 0.3s ease;
 }

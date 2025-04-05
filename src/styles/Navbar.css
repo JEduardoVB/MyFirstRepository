@@ -5,9 +5,8 @@ nav{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: #00000000; /* Fondo blanco con opacidad */
-    backdrop-filter: blur(4px); /* Difuminado en el fondo */
-    padding: 2vh;
+    background: #00000000;
+    backdrop-filter: blur(4px);
 }
 /*-----------------------------Style list Navbar-----------------------------*/
 .List-nav-options{
@@ -38,5 +37,26 @@ a:hover{
 .Logo-nav{
     margin-left: 2vw;
     width: 6vh;
+    width: clamp(30px, 6vh, 50px);
     height: auto;
+    transition: transform 0.3s;
 }
+
+.Logo-nav:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .Option-nav {
+        margin-right: 2vw;
+    }
+    
+    a {
+        font-size: 0.7rem;
+    }
+    
+    .Logo-nav {
+        width: 30px;
+    }
+}
+

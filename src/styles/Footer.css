@@ -30,7 +30,7 @@ footer {
 }
 
 .icon {
-    width: clamp(24px, 3vw, 32px); /* Mínimo 24px, ideal 3vw, máximo 32px */
+    width: clamp(24px, 3vw, 32px);
     height: auto;
     color: #fdfdfd;
     transition: opacity 0.3s ease;

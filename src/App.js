@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <Index /> {/* Renderizamos directamente el componente Index que ahora contiene todo */}
+      <Index /> {}
       <Footer />
     </Router>
   );

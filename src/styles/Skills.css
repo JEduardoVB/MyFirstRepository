@@ -6,41 +6,41 @@
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Más compacto */
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
-  justify-items: center; /* Centrado horizontal */
+  justify-items: center;
 }
 
 .skill-card {
   background: #2d2d2d;
-  border-radius: 8px; /* Bordes más pequeños */
+  border-radius: 8px;
   transition: transform 0.2s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 1rem 0rem; /* Padding reducido */
+  padding: 1rem 0rem;
 }
 
 .skill-card:hover {
-  transform: scale(1.1); /* Efecto de zoom */
+  transform: scale(1.1);
 }
 
 .skill-icon {
-  font-size: 1.5rem; /* Tamaño balanceado */
+  font-size: 1.5rem;
   color: #dfec25;
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
 }
 
 .skill-card:hover .skill-icon {
-  color: #f8ff71; /* Amarillo más claro al hover */
+  color: #f8ff71;
 }
 
 .skill-info h3 {
   margin: 0;
-  font-size: 0.75rem; /* Texto muy compacto */
+  font-size: 0.75rem;
   color: #fdfdfd;
   text-align: center;
   font-weight: 300;
