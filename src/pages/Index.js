@@ -93,26 +93,15 @@ const Index = () => {
                     <p className='Description-Bar'>Si necesitas saber quién soy, aquí encontraras un poco de información
                     sobre mi educación e historias.</p>
                 </div>
-                
-                {/* Contenido adicional de About Me puede ir aquí */}
-                <div className="about-content">
-                    {/* Agrega aquí tu información personal, educación, etc. */}
-                </div>
-            </section>
-
-            {/* Sección Contact */}
-            <section id="contact"></section>
-            <section className='Container-Contact'>
-                <div className='Bar'>
-                    <h2 className='Section-Bar'>CONTACTAME</h2>
-                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
-                    <p className='Description-Bar'>Espero que estés buscando como contactarme porque te gustó algo que te interesó
-                    y no porque me quieras demandar</p>
-                </div>
-                
-                {/* Formulario de contacto o información puede ir aquí */}
-                <div className="contact-content">
-                    {/* Agrega aquí tu formulario o información de contacto */}
+                <div className="about-content" style={{padding: "5% 20% 5% 20%"}}>
+                    <p>
+                        Soy un desarrollador en formación con una meta clara: convertirme en Fullstack Developer avanzado. 
+                        Me apasiona crear soluciones completas, desde el diseño y desarrollo web hasta la integración con servicios en la nube y APIs. 
+                        Actualmente estoy profundizando en estructuras de datos, algoritmos y programación modular como parte de mi camino autodidacta.
+                        Estudio en la Universidad de Guadalajara y estoy comprometido con mi crecimiento personal y profesional.<br /><br />
+                        Fuera del código, me encantan los videojuegos, la música, tocar instrumentos y, por supuesto, los tacos. 
+                        Siempre estoy buscando un buen equilibrio entre trabajar, aprender y disfrutar lo que me gusta.
+                    </p>
                 </div>
             </section>
         </div>

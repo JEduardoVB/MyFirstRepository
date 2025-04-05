@@ -18,6 +18,18 @@ h1 {
     color: #dfec25;
 }
 
+.about-content p{
+    color: #fdfdfd;
+    font-family: 'Raleway';
+    font-weight: lighter;
+
+    width: 90%;
+    font-size: clamp(0.8rem, 1.3vw, 1.1rem);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 5%;
+}
+
 .Presentation {
     font-family: 'Raleway';
     font-weight: lighter;

@@ -12,18 +12,17 @@ const Skills = () => {
     { name: 'HTML5', icon: <FaHtml5 />},
     { name: 'CSS3', icon: <FaCss3Alt />},
     { name: 'Git', icon: <FaGitAlt />},
-    { name: 'C++', icon: <SiCplusplus />, color: '#00599C' },
-    { name: 'Python', icon: <FaPython />, color: '#3776AB' },
-    { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' },
-    { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
-    { name: 'Java', icon: <FaJava />, color: '#007396' },
-    { name: 'JavaScript', icon: <FaJs />, color: '#F7DF1E' },
-    { name: 'Bootstrap', icon: <SiBootstrap />, color: '#7952B3' },
-    { name: 'Django', icon: <SiDjango />, color: '#092E20' },
-    { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#336791' },
-    { name: 'Spring Boot', icon: <SiSpringboot />, color: '#6DB33F' },
-    { name: 'React', icon: <FaReact />, color: '#61DAFB' },
-    { name: 'Node.js', icon: <FaNode />, color: '#339933' }
+    { name: 'C++', icon: <SiCplusplus />},
+    { name: 'Python', icon: <FaPython />},
+    { name: 'MySQL', icon: <SiMysql />},
+    { name: 'Postman', icon: <SiPostman />},
+    { name: 'Java', icon: <FaJava />},
+    { name: 'Bootstrap', icon: <SiBootstrap />},
+    { name: 'Django', icon: <SiDjango />},
+    { name: 'PostgreSQL', icon: <SiPostgresql />},
+    { name: 'Spring Boot', icon: <SiSpringboot />},
+    { name: 'React', icon: <FaReact />},
+    { name: 'Node.js', icon: <FaNode />}
   ];
 
   return (

@@ -19,9 +19,6 @@ const Navbar = () => {
                 <li className='Option-nav'>
                     <Link to="about" smooth={true} duration={500}>Sobre mi</Link>
                 </li>
-                <li className='Option-nav'>
-                    <Link to="contact" smooth={true} duration={500}>Contactame</Link>
-                </li>
             </ul>
         </nav>
     );
