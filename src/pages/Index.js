@@ -58,7 +58,7 @@ const Index = () => {
             <section className='Container-Proyects'>
                 <div className='Bar'>
                     <h2 className='Section-Bar'>PROYECTS</h2>
-                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #fdfdfd'}} />
+                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                     <p className='Description-Bar'>Conoce algunos proyectos personales y profesionales en los que he trabajado hasta el momento, 
                     tal vez alguno sea de tu agrado y podamos hacer algo juntos</p>
                 </div>
@@ -77,9 +77,9 @@ const Index = () => {
             <section className='Container-Skills'>
                 <div className='Bar'>
                     <h2 className='Section-Bar'>SKILLS</h2>
-                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #fdfdfd'}} />
+                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                 </div>
-                <div className='Skills' style={{padding: "0% 20%"}}>
+                <div className='Skills' style={{padding: "0% 20% 5% 20%"}}>
                     <Skills/>
                 </div>
             </section>
@@ -89,7 +89,7 @@ const Index = () => {
             <section className='Container-AboutMe'>
                 <div className='Bar'>
                     <h2 className='Section-Bar'>ABOUT ME</h2>
-                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #fdfdfd'}} />
+                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                     <p className='Description-Bar'>Si necesitas saber quién soy, aquí encontraras un poco de información
                     sobre mi educación e historias.</p>
                 </div>
@@ -105,7 +105,7 @@ const Index = () => {
             <section className='Container-Contact'>
                 <div className='Bar'>
                     <h2 className='Section-Bar'>CONTACT</h2>
-                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #fdfdfd'}} />
+                    <hr style={{ width: '5%', margin: '2vh 0vw', border: 'none', borderTop: '3px solid #dfec25'}} />
                     <p className='Description-Bar'>Espero que estés buscando como contactarme porque te gustó algo que te interesó
                     y no porque me quieras demandar</p>
                 </div>

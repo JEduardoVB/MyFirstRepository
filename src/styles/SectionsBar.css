@@ -1,7 +1,7 @@
 /*-----------------------------Proyects.css-----------------------------*/
 .Bar{
-    margin-top: 20VH;
-    padding-bottom: 10vh;
+    margin-top: 1VH;
+    padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

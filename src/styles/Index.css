@@ -14,7 +14,7 @@ h1 {
     font-size: 8vw;
     line-height: 1;
     margin: 0;
-    color: #fdfdfd;
+    color: #dfec25;
 }
 
 .Presentation {
@@ -27,13 +27,13 @@ h1 {
 }
 
 header img {
-    width: 30vw; /* Ajusta este valor para cambiar el tamaño */
-    height: 30vw; /* Mismo valor que width para mantener proporción */
+    width: 40vw; /* Ajusta este valor para cambiar el tamaño */
+    height: 40vw; /* Mismo valor que width para mantener proporción */
     max-width: 400px; /* Límite máximo opcional */
     max-height: 400px; /* Límite máximo opcional */
     border-radius: 50%; /* Esto hace la imagen redonda */
     object-fit: cover; /* Para asegurar que la imagen mantenga sus proporciones */
-    border: 2px solid #fdfdfd; /* Borde opcional */
+    border: 0px solid #fdfdfd; /* Borde opcional */
     margin-left: auto; /* Alinea la imagen a la derecha */
     display: block; /* Necesario para que margin-left: auto funcione */
 }
